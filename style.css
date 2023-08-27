@@ -21,7 +21,7 @@
 }
 
 header {
-    background-color: #FFF8F3;
+    background:#FFF8F3 url(images/developer.png) no-repeat left;
 
 }
 
@@ -59,7 +59,6 @@ nav li>a {
     justify-content: space-between;
     align-items: center;
     margin: 0 0px 0px 200px;
-    
     background: url(images/header_bg.png) no-repeat right bottom;
 }
 
@@ -88,4 +87,27 @@ nav li>a {
 .banner-image img {
     height: 650px;
     margin-right: 50px;
+}
+
+.about{
+    margin: 130px 200px;
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-text{
+    width: 1000px;
+}
+
+.about-text h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-text > p{
+    color: #757575;
 }
