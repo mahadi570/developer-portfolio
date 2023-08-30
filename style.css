@@ -231,25 +231,25 @@ nav li>a {
     margin: 50px auto 110px auto;
 }
 
-footer {
+.footer {
    display: flex;
    justify-content: space-between;
    background-color: #FFF8F3;
    padding: 130px 230px;
 }
 
-footer h1{
+.footer h1{
     font-size: 35px;
     font-weight: 700;
     color: #181818;
     margin-bottom: 20px;
 }
 
-footer .address{
+.footer .address{
     width: 570px;
 }
 
-footer .address p{
+.footer .address p{
     font-size: 16px;
     color: #474747;
     margin-bottom: 30px;
@@ -261,7 +261,7 @@ footer .address p{
     cursor: pointer;
 }
 
-footer input, footer textarea{
+.footer input, .footer textarea{
     display: block;
     width: 420px;
     padding: 18px 30px;
@@ -269,5 +269,43 @@ footer input, footer textarea{
     border: 0;
     margin-bottom: 24px;
     font-size: 16px;
+}
+
+.designer h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.designer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 136, 169, 1);
+    padding: 30px 0;
+}
+
+.designer-info p, .designer-info a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.designer-info a{
+    text-decoration: none;
+}
+
+
+.designer-img img{
+    border: 2px solid red;
+    height: 200px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.designer .designer-info{
+    color: white;
+    font-size: 30px;
+
 }
 
