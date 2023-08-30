@@ -10,7 +10,7 @@ body {
     background-color: #fff;
 }
 
-p{
+p {
     font-size: 18px;
 }
 
@@ -111,7 +111,7 @@ nav li>a {
 
 }
 
-.section-container{
+.section-container {
     width: 950px;
     margin: auto;
 }
@@ -142,26 +142,93 @@ nav li>a {
     color: #474747;
 }
 
-.cart{
+.cart {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
 }
 
-.cart-container{
-    margin-right:20px;
-    padding: 20px;
+.cart-container {
+    margin-right: 20px;
+    padding: 22px;
     width: 270px;
     box-shadow: -1px 0px 9px -3px;
     border-radius: 10px;
 }
 
-.cart-container p{
+.cart-container p {
     font-size: 16px;
     color: #757575;
 }
 
-footer{
+.resume {
+    margin: 150px 0;
+}
+
+.resume h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.resume h3 {
+    font-size: 30px;
+}
+
+.resume h4 {
+    font-size: 25px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+}
+
+.what-i-do {
+    margin-bottom: 130px;
+}
+
+.summary h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 130px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.container h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.container h4 {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+}
+
+.container p {
+    width: 510px;
+    color: #757575;
+    font-size: 16px;
+}
+
+.container hr {
+    width: 560px;
+}
+
+.summary .primary-btn {
+    display: flex;
+    margin: 50px auto 110px auto;
+}
+
+footer {
     text-align: center;
     margin-top: 200px;
 }
